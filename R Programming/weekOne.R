@@ -4,40 +4,40 @@
 
 # Q4
 x<-4
-class(x)
+class(x) #Check the 'x' properties of the object.
 
 # Q5
 y <- c(4, TRUE)
 y
-class(y)
+class(y) #Check the 'y' properties of the object.
 
 # Q6
 a <- c(3, 2, 10)
 b <- c(1,3, 5) 
-cbind(a,b)
+cbind(a,b) #Combine 'a' vector and 'b' vector in the thermal direction.
 
 #Q7
-dim(a)
+dim(a) #Retrieve or set the dimension of 'a' object.
 
 # Q8
 c <- list(2, "a", "b", TRUE)
-c[[1]]
+c[[1]] #Shows the first element in the 'c' list.
 
 # Q9
 d <- 1:4
 e <- 2:3
-class(d+e)
+class(d+e) #Check the 'd+e' properties of the object.
 
 
 # Q 10
 f <- c(17, 14, 4, 5, 13, 12, 10) 
-f[f > 10] <- 4
+f[f > 10] <- 4 #Assign 4 to elements greater than 10.
 
 # Q11, 12, 13, 14
-names(hw1_data)
-nrow(hw1_data)
-hw1_data[1:2,]
-tail(hw1_data)
+names(hw1_data) #Functions to get or set the names of 'hw1_data'.
+nrow(hw1_data) #Return the number of rows present in 'hw1_data'.
+hw1_data[1:2,] #Indicates all columns including the first and second row of 'hw_data'.
+tail(hw1_data) #Returns the last parts of 'hw1_data'.
 
 ## Q 15-20
 
